@@ -1,0 +1,15 @@
+servicechoice = input('Enter desired auto service:\n')
+print(f'You entered: {servicechoice}')
+serviceprice = 0
+my_list = ['oil change','tire rotation','car wash']
+if servicechoice == my_list[0]:
+    serviceprice = 35
+    print(f'Cost of {servicechoice}: ${serviceprice}')
+elif servicechoice == my_list[1]:
+    serviceprice = 19
+    print(f'Cost of {servicechoice}: ${serviceprice}')
+elif servicechoice == my_list[2]:
+    serviceprice = 7
+    print(f'Cost of {servicechoice}: ${serviceprice}')
+else:
+    print(f'Error: Requested service is not recognized')
